@@ -30,7 +30,7 @@ class ActorToMoviesGenerator extends Component {
         });
     const openai = new OpenAIApi(configuration);
 
-    openai.createCompletion(process.env.AI_ENGINE_KEY, {
+    openai.createCompletion("text-curie-001", {
         prompt: createMovieGeneratorPrompt(formDataObj.actorName) ,
         temperature: 0.8,
         max_tokens: 200,
