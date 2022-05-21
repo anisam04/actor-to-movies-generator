@@ -2,7 +2,7 @@
 // import './App.css';
 import ActorToMoviesGenerator from "./components/ActorToMoviesGenerator"
 import Navigation from './components/Navigation';
-import Example from './components/Example';
+import ReadMe from './components/ReadMe';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
  
 
@@ -14,7 +14,7 @@ function App() {
            <Navigation />
            <Routes>
              <Route path="/" exact element={<ActorToMoviesGenerator />} />
-             <Route path="/example" exact element={<Example />} />
+             <Route path="/readme" exact element={<ReadMe />} />
            </Routes>
         </div>
       </Router>
