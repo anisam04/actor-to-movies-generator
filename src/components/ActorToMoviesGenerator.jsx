@@ -78,17 +78,17 @@ class ActorToMoviesGenerator extends Component {
                     <br />
                     <Card>
                         <Card.Body>
-                            <Card.Title><h1>{this.state.heading}</h1></Card.Title>
+                            <Card.Title><h4>{this.state.heading}</h4></Card.Title>
                             <hr />
                             <br />
                             <Card.Text>
-                                <h4>{this.state.response}</h4>
+                                <p>{this.state.response}</p>
                             </Card.Text>
                         </Card.Body>
                     </Card>
                     
                 <Container>
-                <h2>Prompt History</h2>
+                <h3>History</h3>
                     {/* {this.props.header} */}
             <CardGroup>
                 <Card>

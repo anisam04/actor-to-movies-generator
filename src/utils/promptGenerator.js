@@ -1,5 +1,5 @@
 export function createMovieGeneratorPrompt(actorName){
-    return `Generate names of some movies where the actor/actress is in the leading role. 
+    return `Generate names of Hollywood movies where the actor/actress is in the leading role. 
     Actor: Hugh Jackman
     Movie Names: The Wolverine, Les Miserables, X-Men Origins: Wolverine
     Actor: Tom Cruise
