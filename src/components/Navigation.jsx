@@ -1,4 +1,3 @@
-// import logo from '../logo.png'
 import React, { Component } from 'react'
 import 'bootstrap/dist/css/bootstrap.css'
 import { Nav, Navbar } from 'react-bootstrap'
